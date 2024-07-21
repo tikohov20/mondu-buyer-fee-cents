@@ -1,8 +1,4 @@
-# OXID eShop module for Mondu Payment
-
-### Installation
-
-##### Manual installation
+### Plugin for oxid
 
 1. Switch to the shop modules directory (`<shop_directory>/source/modules`)
 
