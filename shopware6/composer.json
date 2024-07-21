@@ -1,0 +1,36 @@
+{
+    "name": "mondu/buyer-fee-cents",
+    "description": "Mondu Plugin extension for buyer fee cents",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tigran",
+            "email": "tiko.hovhannisayn@ext.mondu.ai"
+        }
+    ],
+    "require": {
+        "shopware/core": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mondu\\MonduBuyerFeeCents\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Mondu\\MonduBuyerFeeCents\\MonduBuyerFeeCents",
+        "plugin-icon": "src/Resources/public/mondu-logo.png",
+        "label": {
+            "en-GB": "Mondu Payment Plugin Extension"
+        },
+        "description": {
+            "de-DE": "Jetzt kaufen, später bezahlen",
+            "en-GB": "Buy Now, Pay Later."
+        },
+        "manufacturerLink": {
+            "de-DE": "https://mondu.ai",
+            "en-GB": "https://mondu.ai"
+        }
+    }
+}
